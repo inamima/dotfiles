@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# dotfiles
-=======
->>>>>>> 913ee00... add files
 dotfiles
 ========
 
@@ -25,17 +19,3 @@ setup
 
     $ cd ~/.vim/bundle/vimproc
     $ make -f make_unix.mak
-
-#### syntastic
-
-    # python
-    $ pip install flake8
-
-#### jedi-vim
-
-    $ cd ~/.vim/bundle/jedi-vim
-    $ git submodule update --init
-<<<<<<< HEAD
-=======
->>>>>>> add files
->>>>>>> 913ee00... add files

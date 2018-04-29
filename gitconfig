@@ -1,0 +1,25 @@
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	ui = true
+
+[alias]
+	lg  = log --graph --pretty=format:'%Cred%h%Creset%x09%Cgreen(%cd)%x09%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit --date=local
+	lga = log --graph --pretty=format:'%Cred%h%Creset%x09%Cgreen(%cd)%x09%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit --date=local --all
+	ci = commit
+	co = checkout
+	diffc = diff --cached
+	df = diff
+	dfc = diff --cached
+	st = status
+	cp = cherry-pick
+	po = push origin
+
+[push]
+	default = simple
+
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less

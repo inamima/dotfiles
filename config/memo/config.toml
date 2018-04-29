@@ -1,0 +1,9 @@
+memodir = "/Users/morikt/.config/memo/_posts"
+editor = "vim"
+column = 20
+selectcmd = "peco"
+grepcmd = "grep -nH ${PATTERN} ${FILES}"
+templatedirfile = "/Users/morikt/.config/memo/templatedirfile.html"
+templatebodyfile = "/Users/morikt/.config/memo/templatebodyfile.html"
+assetsdir = "."
+

@@ -1,21 +1,35 @@
-dotfiles
-========
+# dotfiles
 
-setup
------
+## setup rcm
 
-    $ git clone git@github.com:inamima/dotfiles.git ~/
-    $ cd dotfiles
-    $ ./install.sh
+```sh
+brew tap thoughtbot/formulae
+brew install rcm
+```
 
-#### vim-plug
+## setup
 
-    $curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    $ vim
-    $ PlugInstall
+```sh
+cd ~
+git clone git@github.com:inamima/dotfiles.git .dotfiles
+rcup
+```
 
-#### vimproc
+## setup vim
 
-    $ cd ~/.vim/bundle/vimproc
-    $ make -f make_unix.mak
+### vim-plug
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vim
+:PlugInstall
+```
+
+### vimproc
+
+```
+cd ~/.vim/bundle/vimproc
+make -f make_unix.mak
+```
+

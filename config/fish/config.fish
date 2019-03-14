@@ -1,3 +1,5 @@
+set -x PATH $HOME/.cargo/bin $PATH
+
 #peco
 function fish_user_key_bindings
     bind \cr peco_select_history

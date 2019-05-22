@@ -1,6 +1,7 @@
 set number
 set hls
 set termguicolors
+set showtabline=2
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'

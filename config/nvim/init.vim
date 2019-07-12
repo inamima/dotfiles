@@ -2,13 +2,47 @@ set number
 set hls
 set termguicolors
 set showtabline=2
+set background=dark
+
+nnoremap ,t :tabe new<Enter>
+nnoremap <c-h> gT
+nnoremap <c-l> gt
+
+" カーソル行を強調表示しない
+set nocursorline
+" 挿入モードの時のみ、カーソル行をハイライトする
+autocmd InsertEnter,InsertLeave * set cursorline!
+
+"挿入・検索モードでIMEOFF"
+set iminsert=0
+set imsearch=0
+
+" よく押し間違えるので q: を無効化
+nnoremap q: <NOP>
+
+" 検索文字列が小文字の場合は大文字小文字を区別なく検索する(noignorecase)
+set ignorecase
+" 検索文字列に大文字が含まれている場合は区別して検索する(nosmartcase)
+set smartcase
+
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'iCyMind/NeoSolarized'
 Plug 'tpope/vim-fugitive'
 Plug 'itchyny/lightline.vim'
+Plug 'rhysd/clever-f.vim'
+Plug 'Lokaltog/vim-easymotion'
 call plug#end()
+
+" easymotion
+let g:EasyMotion_do_mapping = 0 "Disable default mappings
+let g:EasyMotion_smartcase = 1
+nmap s <Plug>(easymotion-s2)
+
+" ctrlp
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = {'file' : '\.pyc', 'dir': 'node_modules' }
 
 colorscheme NeoSolarized
 

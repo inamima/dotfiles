@@ -1,10 +1,11 @@
 set -x PATH $HOME/.cargo/bin $PATH
 set -x PATH $HOME/.poetry/bin $PATH
 
-#peco
 function fish_user_key_bindings
+    # peco
     bind \cr peco_select_history
-    bind \cg\cb peco_select_git_branch
+    # ghq
+    bind \cg ghq_repo_search
 end
 
 # tig

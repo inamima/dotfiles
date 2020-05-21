@@ -78,6 +78,9 @@ set showtabline=2
 " jjでEsc
 inoremap <silent> jj <ESC>
 
+" 英語キーボード用に;を:として扱う
+nnoremap ; :
+
 
 " 現在のタブを新しいタブへ移動
 nnoremap <silent> mt :<C-u>call <SID>MoveToNewTab()<CR>

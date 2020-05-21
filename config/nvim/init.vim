@@ -8,6 +8,9 @@ nnoremap ,t :tabe new<Enter>
 nnoremap <c-h> gT
 nnoremap <c-l> gt
 
+" 英語キーボード用に;を:として扱う
+nnoremap ; :
+
 " カーソル行を強調表示しない
 set nocursorline
 " 挿入モードの時のみ、カーソル行をハイライトする

@@ -1,5 +1,6 @@
 {
     "Style": {
         "Selected": ["white", "on_magenta"]
-    }
+    },
+    "InitialFilter": "Fuzzy"
 }

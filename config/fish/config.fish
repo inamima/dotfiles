@@ -2,6 +2,9 @@ set -x PATH /usr/local/bin/ $PATH
 set -x PATH $HOME/.cargo/bin $PATH
 set -x PATH $HOME/.poetry/bin $PATH
 
+alias d="docker"
+alias dc="docker-compose"
+
 function fish_user_key_bindings
     # peco
     bind \cr peco_select_history

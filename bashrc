@@ -20,3 +20,5 @@ case $- in
     *i*) exec fish;;
       *) return;;
 esac
+
+. "$HOME/.cargo/env"

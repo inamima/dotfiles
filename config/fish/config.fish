@@ -1,6 +1,7 @@
 set -x PATH /usr/local/bin/ $PATH
 set -x PATH $HOME/.cargo/bin $PATH
 set -x PATH $HOME/.poetry/bin $PATH
+set -x PATH $HOME/.cargo/bin $PATH
 
 alias d="docker"
 alias dc="docker-compose"

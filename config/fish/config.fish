@@ -22,3 +22,8 @@ end
 function tmux
     command tmux -2 $argv
 end
+
+# aws-vault
+function avt
+    aws-vault exec $USER -- $argv
+end

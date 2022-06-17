@@ -5,6 +5,8 @@ set -x PATH $HOME/.cargo/bin $PATH
 
 set -x AWS_SESSION_TOKEN_TTL 12h
 
+set -x BAT_THEME "Solarized (light)"
+
 alias d="docker"
 alias dc="docker-compose"
 

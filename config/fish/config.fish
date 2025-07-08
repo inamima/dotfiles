@@ -20,6 +20,8 @@ function fish_user_key_bindings
     bind \cr peco_select_history
     # ghq
     bind \cg ghq_repo_search
+    # ssh
+    bind \cs peco_ssh_connect
 end
 
 # tig

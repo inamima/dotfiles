@@ -7,6 +7,10 @@ set -x AWS_SESSION_TOKEN_TTL 12h
 
 set -x BAT_THEME "Solarized (light)"
 
+# for vscode
+string match -q "$TERM_PROGRAM" "vscode"
+and . (code --locate-shell-integration-path fish)
+
 alias d="docker"
 alias dc="docker-compose"
 

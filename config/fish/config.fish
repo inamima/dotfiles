@@ -36,3 +36,5 @@ end
 function avt
     aws-vault exec $USER -- $argv
 end
+
+starship init fish | source

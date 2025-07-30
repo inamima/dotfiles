@@ -1,4 +1,4 @@
-set -x PATH /usr/local/bin/ $PATH
+set -x PATH /opt/homebrew/bin /opt/homebrew/sbin /usr/local/bin/ $PATH
 set -x PATH $HOME/.cargo/bin $PATH
 set -x PATH $HOME/.poetry/bin $PATH
 set -x PATH $HOME/.cargo/bin $PATH

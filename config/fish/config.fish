@@ -22,6 +22,8 @@ function fish_user_key_bindings
     bind \cgg ghq_repo_search
     # ssh
     bind \cgs peco_ssh_connect
+    # aws sso login
+    bind \cga peco_aws_sso_login
 end
 
 # tig

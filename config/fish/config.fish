@@ -17,11 +17,11 @@ alias tf="terraform"
 
 function fish_user_key_bindings
     # peco
-    bind \cr peco_select_history
+    bind \cgr peco_select_history
     # ghq
-    bind \cg ghq_repo_search
+    bind \cgg ghq_repo_search
     # ssh
-    bind \cs peco_ssh_connect
+    bind \cgs peco_ssh_connect
 end
 
 # tig

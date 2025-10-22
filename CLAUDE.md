@@ -34,10 +34,21 @@ The repository uses `rcm` for managing dotfiles:
 # Install rcm
 brew tap thoughtbot/formulae
 brew install rcm
+```
 
-# Clone and setup
+```fish
+# Clone and setup (Fish shell)
 cd ~
 git clone git@github.com:inamima/dotfiles.git .dotfiles
+set RCRC dotfiles/rcrc
+rcup
+```
+
+```bash
+# Clone and setup (Bash/Zsh)
+cd ~
+git clone git@github.com:inamima/dotfiles.git .dotfiles
+export RCRC="$HOME/dotfiles/rcrc"
 rcup
 ```
 

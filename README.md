@@ -9,9 +9,19 @@ brew install rcm
 
 ## setup
 
-```sh
+```fish
+# For Fish shell
 cd ~
 git clone git@github.com:inamima/dotfiles.git .dotfiles
+set RCRC dotfiles/rcrc
+rcup
+```
+
+```bash
+# For Bash/Zsh
+cd ~
+git clone git@github.com:inamima/dotfiles.git .dotfiles
+export RCRC="$HOME/dotfiles/rcrc"
 rcup
 ```
 

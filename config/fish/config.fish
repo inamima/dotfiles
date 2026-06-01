@@ -15,6 +15,7 @@ and . (code --locate-shell-integration-path fish)
 alias d="docker"
 alias dc="docker-compose"
 alias tf="terraform"
+alias obsidian="/Applications/Obsidian.app/Contents/MacOS/Obsidian"
 
 function fish_user_key_bindings
     # peco

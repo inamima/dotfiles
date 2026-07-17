@@ -26,6 +26,8 @@ function fish_user_key_bindings
     bind \cgs peco_ssh_connect
     # aws sso login
     bind \cga peco_aws_sso_login
+    # obsidian vault
+    bind \cgo peco_obsidian_vault
 end
 
 # tig

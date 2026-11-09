@@ -28,6 +28,8 @@ function fish_user_key_bindings
     bind \cga peco_aws_sso_login
     # obsidian vault
     bind \cgo peco_obsidian_vault
+    # herdr session
+    bind \cgh peco_herdr_attach
 end
 
 # tig

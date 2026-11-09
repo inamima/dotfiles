@@ -1,2 +1,4 @@
 bind generic <Ctrl-F> move-page-down
 bind generic <Ctrl-B> move-page-up
+
+set main-view-id = yes
